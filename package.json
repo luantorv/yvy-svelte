@@ -1,0 +1,21 @@
+{
+  "name": "yvy-svelte",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node build"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "^5.2.9",
+    "@sveltejs/kit": "^2.16.0",
+    "svelte": "^5.0.0",
+    "vite": "^8.0.0"
+  }
+}

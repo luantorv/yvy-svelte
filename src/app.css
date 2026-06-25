@@ -1,0 +1,8 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.chat-scroll {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}

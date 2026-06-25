@@ -1,0 +1,1 @@
+EL-CODIGO-CANARIO-YVY-2025 aparece sólo aquí.

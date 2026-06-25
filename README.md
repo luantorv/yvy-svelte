@@ -9,6 +9,10 @@ Dashboard agrícola con chat RAG y visualización de sensores, construido con Sv
 - **Chat RAG**: hacé preguntas sobre tus cultivos y el sistema responde usando documentación local + Ollama (phi3).
 - **Gráficos KPI**: visualización de humedad/temperatura por lote y tendencia de 24 horas de suelo vs. aire.
 
+<div align="center">
+    <img src="./asset/screenshoot.png" alt="YVY AI Interfaz" width="100%">
+</div>
+
 ## Requisitos
 
 - [Nix](https://nixos.org/) con flakes habilitados

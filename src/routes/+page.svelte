@@ -133,8 +133,10 @@
         </div>
 
         <div
-          class="card-body flex-grow-1 chat-scroll d-flex flex-column gap-2"
-          style="min-height: 0; padding-right: 0.5rem;"
+          // class="card-body flex-grow-1 chat-scroll d-flex flex-column gap-2 h-100"
+          class="card-body overflow-auto"
+          //style="min-height: 0; padding-right: 0.5rem; overflow-y: auto;"
+          style="flex: 1 1 0; min-height: 0"
         >
           {#each messages as msg}
             {#if msg.role === 'human'}
@@ -145,6 +147,7 @@
                 padding: 0.5rem 0.75rem;
                 max-width: 85%;
                 margin-left: auto;
+                margin-bottom: 0.5rem;
                 box-shadow: 0 1px 2px rgba(0,0,0,0.1);
                 white-space: pre-wrap;
               ">
@@ -159,6 +162,7 @@
                 max-width: 85%;
                 box-shadow: 0 1px 2px rgba(0,0,0,0.05);
                 white-space: pre-wrap;
+                margin-bottom: 0.5rem;
               ">
                 {msg.text}
               </div>
@@ -174,6 +178,7 @@
               max-width: 85%;
               color: #888;
               font-style: italic;
+              margin-bottom: 0.5rem;
             ">
               Pensando…
             </div>

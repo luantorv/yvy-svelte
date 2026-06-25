@@ -23,4 +23,7 @@ jobs:
       - name: Push mirror
         run: |
           git remote add codeberg git@codeberg.org:luantorv/${{ github.event.repository.name }}.git || true
-          git push --mirror codeberg
+          
+          git remote set-head origin -d || true
+          
+          git push --force codeberg "refs/remotes/origin/*:refs/heads/*" "refs/tags/*:refs/tags/*"

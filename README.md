@@ -2,6 +2,8 @@
 
 Dashboard agrícola con chat RAG y visualización de sensores, construido con SvelteKit y JavaScript puro (sin TypeScript).
 
+> Reimplementación en Svelte de [YVY-chat](https://github.com/GonzaloAvila27/YVY-chat) con entorno de desarrollo en Nix mediante flakes y devShell.
+
 ## ¿Qué hace?
 
 - **Chat RAG**: hacé preguntas sobre tus cultivos y el sistema responde usando documentación local + Ollama (phi3).
